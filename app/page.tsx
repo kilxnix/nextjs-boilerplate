@@ -1,4 +1,5 @@
 import Image from "next/image";
+import HealthCheck from "@/components/HealthCheck";
 
 export default function Home() {
   return (
@@ -49,6 +50,9 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div>
+        <div className="mt-8">
+          <HealthCheck />
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
